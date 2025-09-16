@@ -11,7 +11,7 @@ if (!process.env.STRIPE_SECRET_KEY) {
 }
 
 const stripe = process.env.STRIPE_SECRET_KEY ? new Stripe(process.env.STRIPE_SECRET_KEY, {
-  apiVersion: "2023-10-16",
+  apiVersion: "2024-06-20",
 }) : null;
 
 export async function registerRoutes(app: Express): Promise<Server> {
@@ -124,7 +124,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       });
 
       const invoice = subscription.latest_invoice as Stripe.Invoice;
-      const paymentIntent = invoice.payment_intent as Stripe.PaymentIntent;
+      const paymentIntent = (invoice.payment_intent as Stripe.PaymentIntent) || null;
 
       res.json({
         subscriptionId: subscription.id,
@@ -184,7 +184,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
 
         case 'invoice.payment_succeeded':
           const invoice = event.data.object as Stripe.Invoice;
-          if (invoice.subscription) {
+          if (invoice.subscription && invoice.id) {
             await storage.createPayment({
               userId: null,
               stripePaymentId: invoice.id,

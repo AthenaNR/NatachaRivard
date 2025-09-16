@@ -112,7 +112,8 @@ export class MemStorage implements IStorage {
     const payment: Payment = {
       ...insertPayment,
       id,
-      createdAt: new Date()
+      createdAt: new Date(),
+      userId: insertPayment.userId || null
     };
     this.payments.set(id, payment);
     return payment;

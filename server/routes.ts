@@ -27,7 +27,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       const emailSent = await sendEmail({
         to: process.env.CONTACT_EMAIL || "contact@revelateur.fr",
         from: process.env.FROM_EMAIL || "noreply@revelateur.fr",
-        subject: `[RêveRévélateur] Nouveau contact: ${validatedData.subject}`,
+        subject: `[NatachaRivard-AppDev] Nouveau contact: ${validatedData.subject}`,
         html: generateContactEmailHtml(
           validatedData.name,
           validatedData.email,

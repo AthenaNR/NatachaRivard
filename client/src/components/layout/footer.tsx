@@ -11,11 +11,11 @@ export function Footer() {
             <Link href="/" className="flex items-center space-x-2">
               <Moon className="h-6 w-6 text-secondary" />
               <span className="text-lg font-serif font-semibold text-primary">
-                RêveRévélateur
+                NatachaRivard-AppDev
               </span>
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Intelligence artificielle avancée pour interpréter vos rêves avec précision et confidentialité.
+              Développement d'applications mobiles sur mesure avec expertise technique et innovation.
             </p>
           </div>
 
@@ -76,7 +76,7 @@ export function Footer() {
 
         <div className="border-t border-border mt-12 pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} RêveRévélateur. Tous droits réservés.
+            © {new Date().getFullYear()} NatachaRivard-AppDev. Tous droits réservés.
           </div>
           <div className="text-sm text-muted-foreground">
             SIRET: [À REMPLACER] • TVA: [À REMPLACER]

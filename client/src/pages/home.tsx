@@ -11,10 +11,10 @@ export default function Home() {
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-6xl font-serif font-bold mb-6" data-testid="hero-title">
-              Découvrez les Secrets de Vos Rêves
+              Développement d'Applications Mobile Sur Mesure
             </h1>
             <p className="text-xl md:text-2xl opacity-90 mb-8 font-light" data-testid="hero-subtitle">
-              Intelligence artificielle avancée pour interpréter et comprendre vos rêves avec précision et confidentialité
+              Solutions mobiles innovantes et personnalisées par Natacha Rivard, développeure expérimentée
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Link href="/tarifs">
@@ -23,7 +23,7 @@ export default function Home() {
                   className="bg-accent text-accent-foreground hover:opacity-90 shadow-lg"
                   data-testid="cta-trial"
                 >
-                  Essai Gratuit 7 Jours
+                  Consultation Gratuite
                 </Button>
               </Link>
               <Link href="/produits/reve-revelateur">
@@ -33,7 +33,7 @@ export default function Home() {
                   className="border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
                   data-testid="cta-demo"
                 >
-                  Voir une Démo
+                  Voir mes Projets
                 </Button>
               </Link>
             </div>
@@ -46,10 +46,10 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary mb-4" data-testid="features-title">
-              Pourquoi Choisir RêveRévélateur ?
+              Pourquoi Choisir NatachaRivard-AppDev ?
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Une technologie de pointe au service de l'interprétation personnalisée de vos rêves
+              Une expertise technique approfondie au service de vos projets d'applications mobiles
             </p>
           </div>
 
@@ -59,11 +59,11 @@ export default function Home() {
                 <div className="bg-secondary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Brain className="h-8 w-8 text-secondary" />
                 </div>
-                <CardTitle className="text-xl">IA Avancée</CardTitle>
+                <CardTitle className="text-xl">Technologies Modernes</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-muted-foreground">
-                  Algorithmes d'analyse sémantique et psychologique pour une interprétation précise et nuancée
+                  Développement avec React Native, Flutter, et les dernières technologies mobiles
                 </CardDescription>
               </CardContent>
             </Card>
@@ -73,11 +73,11 @@ export default function Home() {
                 <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Shield className="h-8 w-8 text-primary" />
                 </div>
-                <CardTitle className="text-xl">100% Confidentiel</CardTitle>
+                <CardTitle className="text-xl">Qualité Garantie</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-muted-foreground">
-                  Vos rêves sont chiffrés et protégés selon les normes RGPD les plus strictes
+                  Code propre, tests rigoureux et conformité aux standards de développement
                 </CardDescription>
               </CardContent>
             </Card>
@@ -87,11 +87,11 @@ export default function Home() {
                 <div className="bg-accent/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Clock className="h-8 w-8 text-accent" />
                 </div>
-                <CardTitle className="text-xl">Analyse Rapide</CardTitle>
+                <CardTitle className="text-xl">Livraison Rapide</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-muted-foreground">
-                  Obtenez votre interprétation complète en moins de 2 minutes, disponible 24h/24
+                  Développement agile avec livraisons régulières et suivi continu
                 </CardDescription>
               </CardContent>
             </Card>
@@ -104,10 +104,10 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary mb-4">
-              Notre Application
+              Mes Services
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Découvrez RêveRévélateur, l'application mobile qui transforme vos rêves en insights personnalisés
+              Découvrez comment je transforme vos idées en applications mobiles performantes et intuitives
             </p>
           </div>
 
@@ -149,22 +149,22 @@ export default function Home() {
                 <div className="p-8">
                   <div className="space-y-6">
                     <div>
-                      <h3 className="text-2xl font-serif font-bold text-primary mb-2">RêveRévélateur</h3>
-                      <p className="text-sm text-accent font-medium">Application Mobile Premium</p>
+                      <h3 className="text-2xl font-serif font-bold text-primary mb-2">NatachaRivard-AppDev</h3>
+                      <p className="text-sm text-accent font-medium">Développement d'Applications Mobile</p>
                     </div>
 
                     <p className="text-muted-foreground leading-relaxed">
-                      L'application RêveRévélateur utilise une intelligence artificielle de pointe pour analyser et interpréter vos rêves de manière personnalisée.
+                      Je crée des applications mobiles personnalisées en utilisant les technologies les plus modernes pour transformer vos idées en solutions digitales.
                     </p>
 
                     <div className="space-y-4">
-                      <h4 className="font-semibold text-card-foreground">Fonctionnalités principales :</h4>
+                      <h4 className="font-semibold text-card-foreground">Services proposés :</h4>
                       <div className="grid grid-cols-1 gap-3">
                         {[
-                          "Analyse IA avancée en temps réel",
-                          "Journal de rêves personnel et sécurisé", 
-                          "Interprétations détaillées et insights",
-                          "Historique et tendances de vos rêves"
+                          "Développement React Native & Flutter",
+                          "UI/UX Design moderne et intuitif", 
+                          "Intégrations API et services cloud",
+                          "Maintenance et support continu"
                         ].map((feature, index) => (
                           <div key={index} className="flex items-start space-x-3">
                             <Check className="h-4 w-4 text-accent mt-0.5 flex-shrink-0" />
@@ -177,12 +177,12 @@ export default function Home() {
                     <div className="flex flex-col sm:flex-row gap-4 pt-4">
                       <Link href="/tarifs" className="flex-1 sm:flex-none">
                         <Button className="w-full" data-testid="product-trial-button">
-                          Essai Gratuit
+                          Consultation Gratuite
                         </Button>
                       </Link>
                       <Link href="/produits" className="flex-1 sm:flex-none">
                         <Button variant="outline" className="w-full" data-testid="product-detail-button">
-                          En Savoir Plus
+                          Voir Portfolio
                         </Button>
                       </Link>
                     </div>
@@ -199,14 +199,14 @@ export default function Home() {
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary mb-4" data-testid="cta-title">
-              Prêt à Découvrir Vos Rêves ?
+              Prêt à Créer Votre App ?
             </h2>
             <p className="text-lg text-muted-foreground mb-8">
-              Commencez votre voyage d'interprétation avec notre essai gratuit de 7 jours
+              Discutons de votre projet d'application mobile lors d'une consultation gratuite
             </p>
             <Link href="/tarifs">
               <Button size="lg" className="shadow-lg" data-testid="final-cta">
-                Commencer Maintenant
+                Contactez-moi
               </Button>
             </Link>
           </div>

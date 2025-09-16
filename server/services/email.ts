@@ -42,7 +42,7 @@ export function generateContactEmailHtml(name: string, email: string, subject: s
   return `
     <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;">
       <div style="background: linear-gradient(135deg, #1E40AF 0%, #7C3AED 100%); padding: 30px; border-radius: 12px 12px 0 0; text-align: center;">
-        <h1 style="color: white; margin: 0; font-size: 28px;">🌙 RêveRévélateur</h1>
+        <h1 style="color: white; margin: 0; font-size: 28px;">📱 NatachaRivard-AppDev</h1>
         <p style="color: rgba(255, 255, 255, 0.9); margin: 10px 0 0 0; font-size: 16px;">Nouveau message de contact</p>
       </div>
       
@@ -84,7 +84,7 @@ export function generateContactEmailHtml(name: string, email: string, subject: s
         
         <div style="text-align: center; margin-top: 20px;">
           <p style="color: #6b7280; font-size: 14px; margin: 0;">
-            Message automatique de RêveRévélateur | Ne pas répondre à cet email
+            Message automatique de NatachaRivard-AppDev | Ne pas répondre à cet email
           </p>
         </div>
       </div>

@@ -26,7 +26,7 @@ export function Header() {
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-2" data-testid="link-home-logo">
             <i className="fas fa-moon text-2xl text-secondary"></i>
-            <span className="text-xl font-serif font-semibold text-primary">RêveRévélateur</span>
+            <span className="text-xl font-serif font-semibold text-primary">NatachaRivard-AppDev</span>
           </Link>
           
           {/* Desktop Navigation */}

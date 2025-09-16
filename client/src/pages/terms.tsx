@@ -81,8 +81,8 @@ export default function Terms() {
                 <h4>6.1 Formules d'Abonnement</h4>
                 <ul>
                   <li><strong>Essai gratuit :</strong> 7 jours d'essai avec fonctionnalités limitées</li>
-                  <li><strong>Abonnement mensuel :</strong> 9,99€ par mois, renouvelé automatiquement</li>
-                  <li><strong>Paiement à l'usage :</strong> 1,99€ par interprétation</li>
+                  <li><strong>Abonnement mensuel :</strong> 12,99$ CAD par mois, renouvelé automatiquement</li>
+                  <li><strong>Paiement à l'usage :</strong> 2,99$ CAD par interprétation</li>
                 </ul>
                 
                 <h4>6.2 Renouvellement et Annulation</h4>

@@ -70,7 +70,7 @@ const CheckoutForm = () => {
               </div>
               <div className="flex justify-between items-center text-lg font-bold">
                 <span>Total</span>
-                <span className="text-primary">1,99 €</span>
+                <span className="text-primary">2,99 $ CAD</span>
               </div>
             </div>
 
@@ -90,7 +90,7 @@ const CheckoutForm = () => {
                   Traitement en cours...
                 </>
               ) : (
-                `Payer 1,99 €`
+                `Payer 2,99 $ CAD`
               )}
             </Button>
 

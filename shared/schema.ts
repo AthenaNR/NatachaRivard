@@ -28,7 +28,7 @@ export const payments = pgTable("payments", {
   userId: varchar("user_id").references(() => users.id),
   stripePaymentId: text("stripe_payment_id").notNull(),
   amount: decimal("amount", { precision: 10, scale: 2 }).notNull(),
-  currency: text("currency").default("eur"),
+  currency: text("currency").default("cad"),
   status: text("status").notNull(), // succeeded, pending, failed
   type: text("type").notNull(), // subscription, one_time, trial
   createdAt: timestamp("created_at").defaultNow(),

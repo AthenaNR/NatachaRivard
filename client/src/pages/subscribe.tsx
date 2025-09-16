@@ -79,7 +79,7 @@ const SubscribeForm = () => {
               </div>
               <div className="flex justify-between items-center text-lg font-bold">
                 <span>Puis</span>
-                <span className="text-primary">9,99 € / mois</span>
+                <span className="text-primary">12,99 $ CAD / mois</span>
               </div>
             </div>
             
@@ -337,7 +337,7 @@ export default function Subscribe() {
             Finaliser votre Abonnement
           </h1>
           <p className="text-muted-foreground">
-            7 jours d'essai gratuit, puis 9,99€/mois • Annulation facile à tout moment
+            7 jours d'essai gratuit, puis 12,99$ CAD/mois • Annulation facile à tout moment
           </p>
         </div>
 

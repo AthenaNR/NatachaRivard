@@ -8,7 +8,7 @@ export default function Pricing() {
   const plans = [
     {
       name: "Essai Gratuit",
-      price: "0€",
+      price: "0$ CAD",
       period: "7 jours d'essai",
       description: "Découvrez RêveRévélateur sans engagement",
       features: [
@@ -30,7 +30,7 @@ export default function Pricing() {
     },
     {
       name: "Abonnement Mensuel",
-      price: "9,99€",
+      price: "12,99$ CAD",
       period: "par mois",
       description: "Interprétations illimitées et fonctionnalités avancées",
       features: [
@@ -51,7 +51,7 @@ export default function Pricing() {
     },
     {
       name: "À l'Usage",
-      price: "1,99€",
+      price: "2,99$ CAD",
       period: "par interprétation",
       description: "Payez seulement quand vous en avez besoin",
       features: [

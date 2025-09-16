@@ -63,7 +63,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       const { amount } = req.body;
       const paymentIntent = await stripe.paymentIntents.create({
         amount: Math.round(amount * 100), // Convert to cents
-        currency: "eur",
+        currency: "cad",
         metadata: {
           type: "one_time_interpretation"
         }
@@ -117,8 +117,8 @@ export async function registerRoutes(app: Express): Promise<Server> {
       await storage.createPayment({
         userId: null, // For now, no user system
         stripePaymentId: subscription.id,
-        amount: "9.99",
-        currency: "eur",
+        amount: "12.99",
+        currency: "cad",
         status: "pending",
         type: "subscription"
       });
@@ -189,7 +189,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
               userId: null,
               stripePaymentId: invoice.id,
               amount: ((invoice.amount_paid || 0) / 100).toString(),
-              currency: invoice.currency || "eur",
+              currency: invoice.currency || "cad",
               status: "succeeded",
               type: "subscription"
             });

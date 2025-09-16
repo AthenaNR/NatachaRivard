@@ -1,0 +1,50 @@
+### Prompt pour l’agent IA de Replit — Création rapide d’un site d’entreprise prêt pour vérification Stripe
+
+Crée un site web d’entreprise minimal, professionnel et prêt à la vérification Stripe. Le site doit être entièrement fonctionnel, responsive, sécurisé et déployable depuis Replit (ou exportable vers GitHub Pages / Vercel). Fournis le code, la configuration Replit, la documentation d’installation et les instructions pour fournir les informations demandées par Stripe. Toutes les parties variables (nom de l’entreprise, adresse, coordonnées bancaires fictives pour tests) doivent être clairement marquées pour que je les remplace facilement.
+
+1) Objectif principal et livrables
+- Un site statique/dynamique (HTML/CSS/JS + backend léger Node.js/Express si nécessaire) déployable sur Replit.
+- Pages à livrer : Accueil, Produits (liste d’apps), Page produit détaillée pour RêveRévélateur, Politique de confidentialité, Conditions d’utilisation, Mentions légales (info légale entreprise), Page Paiements / Abonnements (explication des plans), Page Contact / Support (formulaire + email), FAQ, Page À propos.
+- Fichiers fournis : code source, README d’installation, checklist Stripe, instructions pour générer et connecter STRIPE_SECRET_KEY et VITE_STRIPE_PUBLIC_KEY, variables d’environnement example (.env.example).
+- Documentation : guide pas à pas pour modification des textes légaux, ajout d’un domaine, vérification Stripe et lien vers la Play Store à ajouter plus tard.
+
+2) Exigences techniques et sécurité
+- Stack proposé : site statique React (Vite) ou template HTML/Bootstrap + backend Node.js/Express minimal pour endpoints nécessaires (contact form, webhook Stripe verification, serveur pour validation d’API keys).
+- Déploiement Replit : config run script prêt, instructions pour définir variables d’environnement (STRIPE_SECRET_KEY, VITE_STRIPE_PUBLIC_KEY, SMTP credentials).
+- HTTPS activé (instructions pour config domaine/SSL si besoin).
+- Protection des clés : usage de variables d’environnement côté serveur, aucune clé en clair dans le repo.
+- Formulaire contact sécurisé avec validation côté serveur et envoi par SMTP (configurable).
+- Page Paiements : démonstration d’intégration Stripe Checkout / Billing client-side + serveur-side minimal pour créer sessions et vérifier webhooks. Utiliser clés en mode test par défaut.
+- Politique de confidentialité et Conditions doivent expliquer explicitement : collecte et traitement des rêves, stockage chiffré, usage d’un LLM externe, partage des données, conservation, droit de suppression, coordonnées DPO fictives à remplacer, et mentions relatives aux paiements via Stripe.
+- Consentement cookies avec option opt-out pour analytics.
+
+3) Contenu légal et texte à fournir
+- Politique de confidentialité complète adaptée aux applications utilisant LLM : finalité, bases légales, stockage chiffré, fournisseurs tiers (OpenAI/PaLM/Gemini), transferts internationaux, durée de conservation, droits utilisateur (accès, rectification, suppression), contact DPO.
+- Conditions d’utilisation précisant limites de responsabilité, interdiction d’usage illégal, non‑conseils médicaux/juridiques, modération et ressources d’aide en cas de contenu sensible.
+- Mentions légales nécessaires pour Stripe (nom légal, adresse, numéro SIRET/NIC à ajouter), informations bancaires côté admin à remplir plus tard.
+- Modèles courts prêts à copier-coller pour Play Store (lien privacy policy).
+
+4) Expérience utilisateur et pages critiques pour Stripe
+- Page « À propos / Entreprise » contenant : nom légal, adresse postale, e‑mail de contact, numéro de téléphone, description de l’activité (création et distribution d’applications mobiles et abonnements), lien privacy + terms.
+- Page « Paiements et abonnements » expliquant les plans (essai 7 jours, mensuel, micropaiement par interprétation), politique de remboursement, lien vers gestion d’abonnement Google Play (à compléter après soumission).
+- Dashboard admin minimal (ou fichier JSON) montrant logs d’essai des webhooks Stripe, achats tests et état des abonnements.
+- Exemple d’e‑mail de vérification et e‑mail de reçu pour Stripe au format HTML.
+
+5) Tests, validation et checklist Stripe
+- Script et guide pour tester en mode test Stripe (création d’une session, webhook local via Replit, vérification des events: invoice.payment_succeeded, customer.subscription.updated, charge.dispute).
+- Checklist prête à l’emploi pour fournir à Stripe : URL du site, description d’activité, preuve d’identité (direction pour upload), coordonnées bancaires, politique de confidentialité, contact support, démonstration des pages liées aux paiements.
+- Tests automatisés / manuels à exécuter : validation formulaire contact, envoi session Stripe test, réception webhook, affichage Politique de confidentialité.
+
+6) Livraison, documentation et instructions opérationnelles
+- Fournis : arborescence du projet, README (installation, variables d’environnement à renseigner, déploiement sur Replit), .env.example avec clés (PLACEHOLDER), étapes pour remplacer par mes vraies infos, instructions pour lier domaine et activer SSL.
+- Indique clairement où remplacer : nom légal entreprise, adresse, email contact, coordonnées bancaires, identifiants SMTP.
+- Délai estimé de réalisation demandé à l’agent : produire un site fonctionnel en mode test dans Replit en moins de 48 heures.
+- Inclure note sur sécurité : ne pas mettre de clés en clair, utiliser mode test Stripe pour le développement.
+
+Remarques finales pour l’agent IA
+- Génère le site en français par défaut avec option d’internationalisation FR/EN.
+- Rédige les textes légaux en français (ton juridique clair mais accessible), prêts à être revus par un juriste.
+- Marque toutes les sections nécessitant une saisie manuelle par « TODO — À REMPLACER PAR Natacha ».
+- Fournis également un court modèle d’e‑mail destiné au support Stripe expliquant l’objet du compte et le site mis en ligne.
+
+Copie-colle ce prompt dans Replit AI et construis le projet complet.

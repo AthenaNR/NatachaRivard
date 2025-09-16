@@ -13,10 +13,9 @@ import { Link } from "wouter";
 
 // Make sure to call `loadStripe` outside of a component's render to avoid
 // recreating the `Stripe` object on every render.
-if (!import.meta.env.VITE_STRIPE_PUBLIC_KEY) {
-  throw new Error('Missing required Stripe key: VITE_STRIPE_PUBLIC_KEY');
-}
-const stripePromise = loadStripe(import.meta.env.VITE_STRIPE_PUBLIC_KEY);
+const stripePromise = import.meta.env.VITE_STRIPE_PUBLIC_KEY 
+  ? loadStripe(import.meta.env.VITE_STRIPE_PUBLIC_KEY)
+  : null;
 
 const SubscribeForm = () => {
   const stripe = useStripe();
@@ -151,6 +150,36 @@ const SubscribeForm = () => {
 };
 
 export default function Subscribe() {
+  // Check if Stripe is available
+  if (!import.meta.env.VITE_STRIPE_PUBLIC_KEY) {
+    return (
+      <div className="min-h-screen py-12">
+        <div className="container mx-auto px-4">
+          <div className="max-w-md mx-auto">
+            <Card className="border-border">
+              <CardContent className="p-8">
+                <div className="text-yellow-500 mb-4">
+                  <CreditCard className="h-12 w-12 mx-auto" />
+                </div>
+                <h2 className="text-xl font-semibold text-foreground mb-2">
+                  Configuration des Abonnements en Cours
+                </h2>
+                <p className="text-muted-foreground mb-4">
+                  Les abonnements Stripe sont en cours de configuration. Cette fonctionnalité sera disponible prochainement.
+                </p>
+                <Link href="/tarifs">
+                  <Button>
+                    Retour aux Tarifs
+                  </Button>
+                </Link>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   const [clientSecret, setClientSecret] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [customerInfo, setCustomerInfo] = useState({

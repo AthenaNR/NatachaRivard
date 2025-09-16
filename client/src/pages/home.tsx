@@ -11,10 +11,10 @@ export default function Home() {
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-6xl font-serif font-bold mb-6" data-testid="hero-title">
-              Développement d'Applications Mobile Sur Mesure
+              Création d'Applications pour Google Play
             </h1>
             <p className="text-xl md:text-2xl opacity-90 mb-8 font-light" data-testid="hero-subtitle">
-              Solutions mobiles innovantes et personnalisées par Natacha Rivard, développeure expérimentée
+              Je crée des applications mobiles qui seront disponibles sur Google Play Store
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Link href="/tarifs">
@@ -46,7 +46,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary mb-4" data-testid="features-title">
-              Pourquoi Choisir NatachaRivard-AppDev ?
+              Pourquoi Choisir Natacha Rivard ?
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Une expertise technique approfondie au service de vos projets d'applications mobiles
@@ -63,7 +63,7 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-muted-foreground">
-                  Développement avec React Native, Flutter, et les dernières technologies mobiles
+                  Création d'applications mobiles avec les technologies modernes pour Google Play
                 </CardDescription>
               </CardContent>
             </Card>

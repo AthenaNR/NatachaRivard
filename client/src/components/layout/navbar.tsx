@@ -52,7 +52,7 @@ export function Navbar() {
           <Link href="/" className="flex items-center space-x-2" data-testid="logo-link">
             <Moon className="h-8 w-8 text-secondary" />
             <span className="text-xl font-serif font-semibold text-primary">
-              NatachaRivard-AppDev
+              Natacha Rivard
             </span>
           </Link>
 

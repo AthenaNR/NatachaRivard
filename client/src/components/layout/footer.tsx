@@ -11,7 +11,7 @@ export function Footer() {
             <Link href="/" className="flex items-center space-x-2">
               <Moon className="h-6 w-6 text-secondary" />
               <span className="text-lg font-serif font-semibold text-primary">
-                NatachaRivard-AppDev
+                Natacha Rivard
               </span>
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed">
@@ -60,15 +60,15 @@ export function Footer() {
             <div className="space-y-3">
               <div className="flex items-center space-x-2 text-sm text-muted-foreground">
                 <Mail className="h-4 w-4" />
-                <span>contact@revelateur.fr</span>
+                <span>dev.natachar@gmail.com</span>
               </div>
               <div className="flex items-center space-x-2 text-sm text-muted-foreground">
                 <Phone className="h-4 w-4" />
-                <span>+33 X XX XX XX XX</span>
+                <span>Non disponible pour le moment</span>
               </div>
               <div className="flex items-start space-x-2 text-sm text-muted-foreground">
                 <MapPin className="h-4 w-4 mt-0.5" />
-                <span>[Adresse]<br />France</span>
+                <span>[Adresse à déterminer]<br />Canada</span>
               </div>
             </div>
           </div>
@@ -76,10 +76,10 @@ export function Footer() {
 
         <div className="border-t border-border mt-12 pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} NatachaRivard-AppDev. Tous droits réservés.
+            © {new Date().getFullYear()} Natacha Rivard. Tous droits réservés.
           </div>
           <div className="text-sm text-muted-foreground">
-            SIRET: [À REMPLACER] • TVA: [À REMPLACER]
+            Numéro d'entreprise: En cours d'obtention • TPS/TVH: En cours d'obtention
           </div>
         </div>
       </div>

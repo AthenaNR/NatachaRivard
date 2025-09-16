@@ -40,10 +40,10 @@ export default function Products() {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-serif font-bold text-primary mb-6" data-testid="products-title">
-            Nos Produits
+            Mon Portfolio
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Découvrez notre gamme d'applications d'interprétation de rêves alimentées par l'intelligence artificielle
+            Découvrez mes projets d'applications mobiles en cours de développement pour Google Play
           </p>
         </div>
 
@@ -60,7 +60,7 @@ export default function Products() {
                       <div className="text-center text-primary-foreground mb-8">
                         <div className="text-4xl mb-3">🌙</div>
                         <h3 className="font-serif font-bold text-lg">RêveRévélateur</h3>
-                        <p className="text-sm opacity-80">Interprétation IA</p>
+                        <p className="text-sm opacity-80">Bientôt sur Google Play</p>
                       </div>
                       <div className="flex-1 bg-card/95 rounded-2xl p-6 text-sm">
                         <div className="space-y-4">

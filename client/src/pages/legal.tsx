@@ -11,7 +11,7 @@ export default function Legal() {
                 Mentions Légales
               </CardTitle>
               <p className="text-muted-foreground">
-                Informations légales obligatoires conformément à la loi française
+                Informations légales obligatoires pour les activités commerciales au Canada
               </p>
             </CardHeader>
             <CardContent className="prose max-w-none space-y-8">
@@ -19,15 +19,15 @@ export default function Legal() {
                 <h3>1. Éditeur du Site</h3>
                 <div className="bg-muted/20 rounded-lg p-4">
                   <ul className="space-y-2">
-                    <li><strong>Dénomination sociale :</strong> {/* TODO - À REMPLACER PAR Natacha */}[Nom légal de l'entreprise]</li>
-                    <li><strong>Forme juridique :</strong> {/* TODO - À REMPLACER PAR Natacha */}[SARL/SAS/SASU/etc.]</li>
-                    <li><strong>Capital social :</strong> {/* TODO - À REMPLACER PAR Natacha */}[Montant du capital] euros</li>
-                    <li><strong>Siège social :</strong> {/* TODO - À REMPLACER PAR Natacha */}[Adresse complète du siège social]</li>
-                    <li><strong>Numéro SIRET :</strong> {/* TODO - À REMPLACER PAR Natacha */}[Numéro SIRET à 14 chiffres]</li>
-                    <li><strong>Numéro SIREN :</strong> {/* TODO - À REMPLACER PAR Natacha */}[Numéro SIREN à 9 chiffres]</li>
-                    <li><strong>Code APE/NAF :</strong> {/* TODO - À REMPLACER PAR Natacha */}[Code APE/NAF]</li>
-                    <li><strong>Numéro TVA intracommunautaire :</strong> {/* TODO - À REMPLACER PAR Natacha */}[Numéro TVA]</li>
-                    <li><strong>RCS :</strong> {/* TODO - À REMPLACER PAR Natacha */}[RCS Ville - Numéro]</li>
+                    <li><strong>Dénomination sociale :</strong> Natacha Rivard</li>
+                    <li><strong>Statut :</strong> Travailleur autonome / Sole Proprietorship (en cours d'enregistrement)</li>
+                    <li><strong>Capital social :</strong> Non applicable (travailleur autonome)</li>
+                    <li><strong>Adresse d'affaires :</strong> [Adresse à déterminer], Canada</li>
+                    <li><strong>Numéro d'entreprise :</strong> En cours d'obtention</li>
+                    <li><strong>Numéro TPS :</strong> En cours d'obtention</li>
+                    <li><strong>Secteur d'activité :</strong> Développement d'applications mobiles</li>
+                    <li><strong>Numéro TVH :</strong> En cours d'obtention</li>
+                    <li><strong>Registre :</strong> Registre des entreprises du Québec (en cours d'inscription)</li>
                   </ul>
                 </div>
               </div>
@@ -35,9 +35,9 @@ export default function Legal() {
               <div data-testid="section-management">
                 <h3>2. Direction de la Publication</h3>
                 <ul>
-                  <li><strong>Directeur de publication :</strong> {/* TODO - À REMPLACER PAR Natacha */}[Nom du directeur de publication]</li>
-                  <li><strong>Qualité :</strong> {/* TODO - À REMPLACER PAR Natacha */}[Gérant/Président/etc.]</li>
-                  <li><strong>Email de contact :</strong> contact@revelateur.fr</li>
+                  <li><strong>Directeur de publication :</strong> Natacha Rivard</li>
+                  <li><strong>Qualité :</strong> Propriétaire unique</li>
+                  <li><strong>Email de contact :</strong> dev.natachar@gmail.com</li>
                 </ul>
               </div>
 
@@ -66,9 +66,9 @@ export default function Legal() {
                   <div>
                     <h4>Contact Commercial</h4>
                     <ul className="space-y-1">
-                      <li><strong>Email :</strong> contact@revelateur.fr</li>
-                      <li><strong>Téléphone :</strong> {/* TODO - À REMPLACER PAR Natacha */}+33 X XX XX XX XX</li>
-                      <li><strong>Horaires :</strong> Lundi-Vendredi 9h-18h (CET)</li>
+                      <li><strong>Email :</strong> dev.natachar@gmail.com</li>
+                      <li><strong>Téléphone :</strong> Non disponible pour le moment</li>
+                      <li><strong>Horaires :</strong> Lundi-Vendredi 9h-17h (EST)</li>
                     </ul>
                   </div>
                   <div>

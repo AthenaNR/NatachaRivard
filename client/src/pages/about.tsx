@@ -7,7 +7,7 @@ export default function About() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h1 className="text-3xl md:text-4xl font-serif font-bold text-primary mb-4" data-testid="text-about-title">
-              À Propos de Notre Entreprise
+              À Propos de Natacha Rivard
             </h1>
             <p className="text-lg text-muted-foreground" data-testid="text-about-subtitle">
               Information légale et professionnelle pour la vérification Stripe
@@ -32,19 +32,19 @@ export default function About() {
                       <h3 className="font-semibold text-card-foreground mb-2">Adresse du Siège Social</h3>
                       <p className="text-muted-foreground" data-testid="text-company-address">
                         {/* Adresse à compléter par Natacha Rivard */}
-                        [Adresse à renseigner]<br />
+                        [Adresse à déterminer]<br />
                         [Code Postal] [Ville]<br />
-                        France
+                        Canada
                       </p>
                     </div>
                     <div>
-                      <h3 className="font-semibold text-card-foreground mb-2">SIRET</h3>
+                      <h3 className="font-semibold text-card-foreground mb-2">Numéro d'Entreprise</h3>
                       <p className="text-muted-foreground" data-testid="text-company-siret">
                         {/* Numéro SIRET à renseigner après inscription */}En cours d'obtention
                       </p>
                     </div>
                     <div>
-                      <h3 className="font-semibold text-card-foreground mb-2">Numéro TVA Intracommunautaire</h3>
+                      <h3 className="font-semibold text-card-foreground mb-2">TPS/TVH</h3>
                       <p className="text-muted-foreground" data-testid="text-company-vat">
                         {/* Numéro TVA à renseigner après inscription */}En cours d'obtention
                       </p>
@@ -62,7 +62,7 @@ export default function About() {
                       <div>
                         <h3 className="font-semibold text-card-foreground">Email de Contact</h3>
                         <p className="text-muted-foreground" data-testid="text-contact-email">
-                          {/* Email à personnaliser */}contact.natacha.rivard@gmail.com
+                          dev.natachar@gmail.com
                         </p>
                       </div>
                     </div>
@@ -71,7 +71,7 @@ export default function About() {
                       <div>
                         <h3 className="font-semibold text-card-foreground">Téléphone</h3>
                         <p className="text-muted-foreground" data-testid="text-contact-phone">
-                          {/* Numéro à renseigner */}+33 X XX XX XX XX
+                          Non disponible pour le moment
                         </p>
                       </div>
                     </div>

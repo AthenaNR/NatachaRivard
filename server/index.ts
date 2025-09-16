@@ -21,30 +21,19 @@ async function setupVite() {
   } catch (error) {
     console.log("Vite middleware not available, setting up manual development server");
     
-    // In development, serve from client directory
-    if (process.env.NODE_ENV !== "production") {
-      // Serve static assets from client directory
-      app.use(express.static("client"));
-      app.use(express.static("client/public"));
-      
-      // Serve index.html for all non-API routes
-      app.get("*", (_req, res) => {
-        res.sendFile("index.html", { root: "client" }, (err) => {
-          if (err) {
-            console.error("Error serving index.html:", err);
-            res.status(404).send("Frontend not found. Please ensure the client directory contains index.html");
-          }
-        });
+    // Serve built static files
+    console.log("Serving built static files from dist/public");
+    app.use(express.static("dist/public"));
+    
+    // Serve index.html for all non-API routes
+    app.get("*", (_req, res) => {
+      res.sendFile("index.html", { root: "dist/public" }, (err) => {
+        if (err) {
+          console.error("Error serving built index.html:", err);
+          res.status(404).send("Build files not found. Run 'npm run build' first.");
+        }
       });
-    } else {
-      // Production: serve from dist/public
-      app.use(express.static("dist/public"));
-      app.get("*", (_req, res) => {
-        res.sendFile("index.html", { root: "dist/public" }, (err) => {
-          if (err) res.status(404).send("Not found");
-        });
-      });
-    }
+    });
   }
 }
 

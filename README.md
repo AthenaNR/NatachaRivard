@@ -1,6 +1,6 @@
 # Natacha Rivard – Site professionnel
 
-Bienvenue sur mon site vitrine. Je suis fondatrice d’AffinitéPro, développeuse full-stack, et passionnée par les technologies inclusives. Ce site présente mon parcours, mes projets, et mes valeurs.
+Bienvenue sur mon site vitrine. Je suis développeuse full-stack, et passionnée par les technologies ayant un caractère social. Ce site est en construction et présentera mon parcours, mes projets, et mes valeurs.
 
 👉 Pour découvrir mes applications : [AffinitéPro](https://tonlien.com)
 👉 Pour me contacter : natacha@email.com

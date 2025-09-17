@@ -1,15 +1,14 @@
-# RêveRévélateur - Site Web d'Entreprise
+# Natacha Rivard – Site professionnel
 
-🌙 **Application d'interprétation de rêves par Intelligence Artificielle**
+Bienvenue sur mon site vitrine. Je suis fondatrice d’AffinitéPro, développeuse full-stack, et passionnée par les technologies inclusives. Ce site présente mon parcours, mes projets, et mes valeurs.
 
-Site web professionnel complet avec intégration Stripe, conformité RGPD, et tableau de bord administrateur - prêt pour la vérification Stripe.
+👉 Pour découvrir mes applications : [AffinitéPro](https://tonlien.com)
+👉 Pour me contacter : natacha@email.com
 
-## 🚀 Fonctionnalités
 
 ### Pages Principales
 - **Accueil** - Présentation du service et CTA
 - **Produits** - Catalogue d'applications avec détails
-- **Tarifs** - Plans d'abonnement et paiement à l'usage
 - **À propos** - Informations légales d'entreprise
 - **Contact** - Formulaire sécurisé avec envoi email
 - **FAQ** - Questions fréquentes
@@ -37,19 +36,6 @@ Site web professionnel complet avec intégration Stripe, conformité RGPD, et ta
 - **TanStack Query** pour les données
 - **Stripe Elements** pour les paiements
 
-### Backend
-- **Node.js + Express** 
-- **TypeScript** intégral
-- **Drizzle ORM** avec PostgreSQL
-- **Stripe SDK** pour paiements
-- **SendGrid** pour les emails
-- **Zod** pour la validation
 
-## 🚦 Démarrage Rapide
 
-### 1. Cloner et installer
-
-```bash
-git clone <votre-repo>
-cd revelateur
 npm install

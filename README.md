@@ -2,7 +2,7 @@
 
 Bienvenue sur mon site vitrine. Je suis développeuse full-stack, et passionnée par les technologies ayant un caractère social. Ce site est en construction et présentera mon parcours, mes projets, et mes valeurs.
 
-👉 Pour découvrir mes applications : [AffinitéPro](https://tonlien.com)
+👉 Pour découvrir mes applications
 👉 Pour me contacter : natacha@email.com
 
 
